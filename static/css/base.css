@@ -1,0 +1,127 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+}
+cavas {
+  width: 100%;
+  height: 100%;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 2px;
+  width: 100%;
+}
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+select,
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+textarea {
+  resize: none;
+}
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email] {
+  padding: 5px 10px;
+  border: 3px solid #333333;
+  height: 50px;
+  color: #333333;
+}
+input[type="checkbox"] {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+input[type="checkbox"] + label {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+input[type="checkbox"] + label:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  margin-right: 20px;
+  content: ' ';
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: -7px;
+}
+input[type="checkbox"]:checked + label:before {
+  background: url() center no-repeat #ffffff;
+}
+input[type="checkbox"]:focus + label:before {
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+}
+.frm-select {
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  border: 3px solid #333333;
+}
+.frm-select .frm-select-btn {
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.frm-select .frm-select-btn .frm-select-btn-triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 10px 10px 0px;
+  border-color: #333333 transparent transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -3px;
+  margin-left: -8px;
+}
+.frm-select select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  height: 44px;
+  width: 125%;
+  padding: 5px 10px;
+  font-size: 24px;
+  color: #333333;
+  cursor: pointer;
+  text-indent: 0.01px;
+  z-index: 1;
+  position: relative;
+  background: transparent;
+}

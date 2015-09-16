@@ -7,3 +7,6 @@ Nothing to setup
 No dependencies
 
 **Note**: Please use the local copy of Three.js in the repo, it has a line of code changed to stretch images around planetary rings properly.
+
+# now in Google cardboard
+If you have a [Google Cardboard VR](https://www.google.com/get/cardboard/), I have integrated this with Cardboard Web App so that you feel as though you are on top of the sun looking down on the Solar System.

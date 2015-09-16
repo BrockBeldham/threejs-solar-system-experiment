@@ -10,3 +10,5 @@ No dependencies
 
 # now in Google cardboard
 If you have a [Google Cardboard VR](https://www.google.com/get/cardboard/), I have integrated this with Cardboard Web App so that you feel as though you are on top of the sun looking down on the Solar System.
+
+http://brockbeldham.github.io/threejs-solar-system-experiment/
